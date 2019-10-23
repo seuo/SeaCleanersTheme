@@ -1,99 +1,60 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Sea Cleaners</title>
 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-<link href="images/favicon.png" rel="icon">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/css/plugins.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/css/style.css">
+  <title>Sea Cleaners NZ</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="<?php echo get_template_directory_uri()?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="<?php echo get_template_directory_uri()?>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="<?php echo get_template_directory_uri()?>/css/agency.min.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri()?>/style.css" rel="stylesheet">
 
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="90">
 
-<!--PreLoader-->
-<div class="loader">
-   <div class="loader-inner">
-      <div class="loader-blocks">
-         <span class="block-1"></span>
-         <span class="block-2"></span>
-         <span class="block-3"></span>
-         <span class="block-4"></span>
-         <span class="block-5"></span>
-         <span class="block-6"></span>
-         <span class="block-7"></span>
-         <span class="block-8"></span>
-         <span class="block-9"></span>
-         <span class="block-10"></span>
-         <span class="block-11"></span>
-         <span class="block-12"></span>
-         <span class="block-13"></span>
-         <span class="block-14"></span>
-         <span class="block-15"></span>
-         <span class="block-16"></span>
-      </div>
-   </div>
-</div>
-<!--PreLoader Ends-->
+<body id="page-top">
 
-<!-- header -->
-<header class="site-header">
-   <nav class="navbar navbar-expand-lg center-brand static-nav">
-      <div class="container">
-         <a class="navbar-brand" href="index.html">
-         <img src="images/logo-transparent.png" alt="logo" class="logo-default">
-         <img src="images/logo-dark.png" alt="logo" class="logo-scrolled">
-         </a>
-         <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#xenav">
-            <span> </span>
-            <span> </span>
-            <span> </span>
-         </button>
-         <div class="collapse navbar-collapse" id="xenav">
-         <?php wp_nav_menu( array(
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container nav-container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Sea Cleaners</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+        <?php wp_nav_menu( array(
                'theme_location' => 'main-menu',
                'container' => 'ul',
                'menu_class' => 'navbar-nav'
             )); ?>
+        </ul>
       </div>
+    </div>
+    <?php wp_head()?>
+  </nav>
 
-      <!--side menu open button-->
-      <a href="javascript:void(0)" class="d-none d-lg-inline-block sidemenu_btn" id="sidemenu_toggle">
-          <span></span> <span></span> <span></span>
-       </a>
-   </nav>
-
-   <!-- side menu -->
-   <div class="side-menu">
-      <div class="inner-wrapper">
-         <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
-         <nav class="side-nav w-100">
-
-         <?php wp_nav_menu( array(
-               'theme_location' => 'main-menu',
-               'container' => 'ul',
-               'menu_class' => 'navbar-nav'
-            )); ?>
-
-         </nav>
+  <!-- Header -->
 
 
-         <div class="side-footer w-100">
-            <ul class="social-icons-simple white top40">
-               <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i> </a> </li>
-               <li><a href="javascript:void(0)"><i class="fa fa-instagram"></i> </a> </li>
-               <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i> </a> </li>
-            </ul>
-            <p class="whitecolor">&copy; 2018 XeOne. Made With Love by themesindustry</p>
-         </div>
-      </div>
-   </div>
-   <a id="close_side_menu" href="javascript:void(0);"></a>
-   <!-- End side menu -->
-   <?php wp_head()?>
-</header>
-<!-- header -->
+
+
+
+

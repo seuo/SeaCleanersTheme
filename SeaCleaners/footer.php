@@ -1,75 +1,263 @@
-  
-  <!--Site Footer Here-->
-<footer id="site-footer" class="padding_half">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-12 col-sm-12 text-center">
-            <p class="copyrights wow fadeInUp" data-wow-delay="350ms"> &copy; © 2002-2019 Sea Cleaners Charitable Trust
-<a href="http://www.themesindustry.com/" target="_blank">Designed by SRUX</a> </p>
-         </div>
+<!-- Footer -->
+ <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <span class="copyright">Copyright &copy; Your Website 2019</span>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Terms of Use</a>
+            </li>
+          </ul>
+        </div>
       </div>
-   </div>
-</footer>
-<!--Footer ends-->   
+    </div>
+  </footer>
 
+  <!-- Portfolio Modals -->
 
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="<?php echo get_template_directory_uri()?>/js/jquery-3.1.1.min.js"></script>
+  <!-- Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Threads</li>
+                  <li>Category: Illustration</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!--Bootstrap Core-->
-<script src="<?php echo get_template_directory_uri()?>/js/popper.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/js/bootstrap.min.js"></script>
+  <!-- Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Explore</li>
+                  <li>Category: Graphic Design</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!--to view items on reach-->
-<script src="<?php echo get_template_directory_uri()?>/js/jquery.appear.js"></script>
+  <!-- Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Finish</li>
+                  <li>Category: Identity</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!--Equal-Heights-->
-<script src="<?php echo get_template_directory_uri()?>/js/jquery.matchHeight-min.js"></script>
+  <!-- Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Lines</li>
+                  <li>Category: Branding</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!--Owl Slider-->
-<script src="<?php echo get_template_directory_uri()?>/js/owl.carousel.min.js"></script>
+  <!-- Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Southwest</li>
+                  <li>Category: Website Design</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!--number counters-->
-<script src="<?php echo get_template_directory_uri()?>/js/jquery-countTo.js"></script>
- 
-<!--Parallax Background-->
-<script src="<?php echo get_template_directory_uri()?>/js/parallaxie.js"></script>
-  
-<!--Cubefolio Gallery-->
-<script src="<?php echo get_template_directory_uri()?>/js/jquery.cubeportfolio.min.js"></script>
+  <!-- Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Window</li>
+                  <li>Category: Photography</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!--FancyBox popup-->
-<script src="<?php echo get_template_directory_uri()?>/js/jquery.fancybox.min.js"></script>       
+  <!-- Bootstrap core JavaScript -->
+  <script src="<?php echo get_template_directory_uri()?>/vendor/jquery/jquery.min.js"></script>
+  <script src="<?php echo get_template_directory_uri()?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<!-- Video Background-->
-<script src="<?php echo get_template_directory_uri()?>/js/jquery.background-video.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="<?php echo get_template_directory_uri()?>/vendor/jquery-easing/jquery.easing.min.js"></script>
 
-<!--TypeWriter-->
-<script src="<?php echo get_template_directory_uri()?>/js/typewriter.js"></script> 
-      
-<!--Particles-->
-<script src="<?php echo get_template_directory_uri()?>/js/particles.min.js"></script>            
-         
-<!--WOw animations-->
-<script src="<?php echo get_template_directory_uri()?>/js/wow.min.js"></script>
-            
-<!--Revolution SLider-->
-<script src="<?php echo get_template_directory_uri()?>/js/revolution/jquery.themepunch.tools.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/js/revolution/jquery.themepunch.revolution.min.js"></script>
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-<script src="<?php echo get_template_directory_uri()?>/js/revolution/extensions/revolution.extension.actions.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/js/revolution/extensions/revolution.extension.carousel.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/js/revolution/extensions/revolution.extension.migration.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/js/revolution/extensions/revolution.extension.navigation.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/js/revolution/extensions/revolution.extension.parallax.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/js/revolution/extensions/revolution.extension.video.min.js"></script>
+  <!-- Contact form JavaScript -->
+  <script src="<?php echo get_template_directory_uri()?>/js/jqBootstrapValidation.js"></script>
+  <script src="<?php echo get_template_directory_uri()?>/js/contact_me.js"></script>
 
-<!--Google Map API-->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJnKEvlwpyjXfS_h-J1Cne2fPMqeb44Mk"></script>
-<script src="<?php echo get_template_directory_uri()?>/js/functions.js"></script>	
-<?php wp_footer()?>
+  <!-- Custom scripts for this template -->
+  <script src="<?php echo get_template_directory_uri()?>/js/agency.min.js"></script>
+  <?php wp_footer()?>
 </body>
+
 </html>

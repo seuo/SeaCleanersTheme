@@ -1,15 +1,21 @@
 
-         <div class="col-lg-3 col-md-6">
-            <div class="team-box grey-shade top60 wow fadeIn" data-wow-delay="350ms">
-               <div class="image">
-                  <img src="<?php the_field('photo')?>" alt="">
-               </div>
-               <div class="team-content darkcolor">
-                  <h4><?php the_title()?></h4>
-                  <h5><?php the_field('position')?></h5>
-                  <p class="nomargin"><?php the_content()?></p>
-               </div>
-            </div>
-         </div>
 
+         <div class="col-sm-2">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="<?php the_field('photo')?>" alt="">
+            <h4><?php the_title()?></h4>
+            <p class="text-muted"><?php the_field('position')?></p>
+            <p>
+
+               <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  More Info
+               </button>
+               </p>
+               <div class="collapse" id="collapseExample">
+               <div class="card card-body">
+                  <?php the_content()?>
+               </div>
+               </div>
+          </div>
+        </div>
 

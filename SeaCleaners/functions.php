@@ -16,7 +16,7 @@ function register_resources() {
         'public' => true,
         'label' => 'Boats'
     );
-    register_post_type( 'boat', $args );
+    register_post_type( 'boats', $args );
 
     $args = array(
         'public' => true,
@@ -29,6 +29,30 @@ function register_resources() {
         'label' => 'Hero'
     );
     register_post_type( 'hero', $args );
+
+    $args = array(
+        'public' => true,
+        'label' => 'Results'
+    );
+    register_post_type( 'results', $args );
+
+    $args = array(
+        'public' => true,
+        'label' => 'Section Images'
+    );
+    register_post_type( 'section-image', $args );
+
+    $args = array(
+        'public' => true,
+        'label' => 'Helpful Info'
+    );
+    register_post_type( 'help-info', $args );
+
+    $args = array(
+        'public' => true,
+        'label' => 'About Us'
+    );
+    register_post_type( 'about', $args );
 }
 
     add_action( 'init', 'register_resources' );
